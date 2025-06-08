@@ -1,0 +1,145 @@
+|--- total_receipts_amount <= 828.10
+|   |--- trip_duration_days <= 4.50
+|   |   |--- miles_traveled <= 583.00
+|   |   |   |--- total_receipts_amount <= 562.04
+|   |   |   |   |--- trip_duration_days <= 1.50
+|   |   |   |   |   |--- miles_traveled <= 197.50
+|   |   |   |   |   |   |--- value: [161.46]
+|   |   |   |   |   |--- miles_traveled >  197.50
+|   |   |   |   |   |   |--- value: [297.59]
+|   |   |   |   |--- trip_duration_days >  1.50
+|   |   |   |   |   |--- miles_traveled <= 203.50
+|   |   |   |   |   |   |--- value: [369.26]
+|   |   |   |   |   |--- miles_traveled >  203.50
+|   |   |   |   |   |   |--- value: [545.69]
+|   |   |   |--- total_receipts_amount >  562.04
+|   |   |   |   |--- value: [683.53]
+|   |   |--- miles_traveled >  583.00
+|   |   |   |--- total_receipts_amount <= 563.10
+|   |   |   |   |--- trip_duration_days <= 2.50
+|   |   |   |   |   |--- value: [625.39]
+|   |   |   |   |--- trip_duration_days >  2.50
+|   |   |   |   |   |--- total_receipts_amount <= 265.18
+|   |   |   |   |   |   |--- value: [760.36]
+|   |   |   |   |   |--- total_receipts_amount >  265.18
+|   |   |   |   |   |   |--- value: [782.36]
+|   |   |   |--- total_receipts_amount >  563.10
+|   |   |   |   |--- value: [1011.86]
+|   |--- trip_duration_days >  4.50
+|   |   |--- miles_traveled <= 624.50
+|   |   |   |--- trip_duration_days <= 8.50
+|   |   |   |   |--- miles_traveled <= 262.97
+|   |   |   |   |   |--- total_receipts_amount <= 340.34
+|   |   |   |   |   |   |--- value: [560.82]
+|   |   |   |   |   |--- total_receipts_amount >  340.34
+|   |   |   |   |   |   |--- value: [705.35]
+|   |   |   |   |--- miles_traveled >  262.97
+|   |   |   |   |   |--- total_receipts_amount <= 302.93
+|   |   |   |   |   |   |--- value: [788.70]
+|   |   |   |   |   |--- total_receipts_amount >  302.93
+|   |   |   |   |   |   |--- value: [947.50]
+|   |   |   |--- trip_duration_days >  8.50
+|   |   |   |   |--- total_receipts_amount <= 567.01
+|   |   |   |   |   |--- miles_traveled <= 380.00
+|   |   |   |   |   |   |--- value: [851.15]
+|   |   |   |   |   |--- miles_traveled >  380.00
+|   |   |   |   |   |   |--- value: [1028.92]
+|   |   |   |   |--- total_receipts_amount >  567.01
+|   |   |   |   |   |--- value: [1179.01]
+|   |   |--- miles_traveled >  624.50
+|   |   |   |--- total_receipts_amount <= 491.49
+|   |   |   |   |--- trip_duration_days <= 10.50
+|   |   |   |   |   |--- trip_duration_days <= 6.50
+|   |   |   |   |   |   |--- value: [970.81]
+|   |   |   |   |   |--- trip_duration_days >  6.50
+|   |   |   |   |   |   |--- value: [1117.09]
+|   |   |   |   |--- trip_duration_days >  10.50
+|   |   |   |   |   |--- value: [1306.63]
+|   |   |   |--- total_receipts_amount >  491.49
+|   |   |   |   |--- miles_traveled <= 833.50
+|   |   |   |   |   |--- value: [1233.69]
+|   |   |   |   |--- miles_traveled >  833.50
+|   |   |   |   |   |--- total_receipts_amount <= 666.42
+|   |   |   |   |   |   |--- value: [1410.75]
+|   |   |   |   |   |--- total_receipts_amount >  666.42
+|   |   |   |   |   |   |--- value: [1570.50]
+|--- total_receipts_amount >  828.10
+|   |--- trip_duration_days <= 5.50
+|   |   |--- miles_traveled <= 621.00
+|   |   |   |--- total_receipts_amount <= 1235.90
+|   |   |   |   |--- trip_duration_days <= 4.50
+|   |   |   |   |   |--- trip_duration_days <= 2.50
+|   |   |   |   |   |   |--- value: [977.66]
+|   |   |   |   |   |--- trip_duration_days >  2.50
+|   |   |   |   |   |   |--- value: [1095.37]
+|   |   |   |   |--- trip_duration_days >  4.50
+|   |   |   |   |   |--- value: [1219.77]
+|   |   |   |--- total_receipts_amount >  1235.90
+|   |   |   |   |--- trip_duration_days <= 2.50
+|   |   |   |   |   |--- trip_duration_days <= 1.50
+|   |   |   |   |   |   |--- value: [1183.80]
+|   |   |   |   |   |--- trip_duration_days >  1.50
+|   |   |   |   |   |   |--- value: [1313.44]
+|   |   |   |   |--- trip_duration_days >  2.50
+|   |   |   |   |   |--- miles_traveled <= 117.50
+|   |   |   |   |   |   |--- value: [1260.48]
+|   |   |   |   |   |--- miles_traveled >  117.50
+|   |   |   |   |   |   |--- value: [1462.19]
+|   |   |--- miles_traveled >  621.00
+|   |   |   |--- trip_duration_days <= 4.50
+|   |   |   |   |--- total_receipts_amount <= 1037.16
+|   |   |   |   |   |--- value: [1198.31]
+|   |   |   |   |--- total_receipts_amount >  1037.16
+|   |   |   |   |   |--- trip_duration_days <= 1.50
+|   |   |   |   |   |   |--- value: [1364.65]
+|   |   |   |   |   |--- trip_duration_days >  1.50
+|   |   |   |   |   |   |--- value: [1533.84]
+|   |   |   |--- trip_duration_days >  4.50
+|   |   |   |   |--- total_receipts_amount <= 1245.30
+|   |   |   |   |   |--- value: [1554.28]
+|   |   |   |   |--- total_receipts_amount >  1245.30
+|   |   |   |   |   |--- miles_traveled <= 900.00
+|   |   |   |   |   |   |--- value: [1729.07]
+|   |   |   |   |   |--- miles_traveled >  900.00
+|   |   |   |   |   |   |--- value: [1702.84]
+|   |--- trip_duration_days >  5.50
+|   |   |--- miles_traveled <= 644.50
+|   |   |   |--- total_receipts_amount <= 1058.59
+|   |   |   |   |--- total_receipts_amount <= 952.12
+|   |   |   |   |   |--- value: [1266.73]
+|   |   |   |   |--- total_receipts_amount >  952.12
+|   |   |   |   |   |--- value: [1455.42]
+|   |   |   |--- total_receipts_amount >  1058.59
+|   |   |   |   |--- trip_duration_days <= 10.50
+|   |   |   |   |   |--- total_receipts_amount <= 1427.37
+|   |   |   |   |   |   |--- value: [1505.27]
+|   |   |   |   |   |--- total_receipts_amount >  1427.37
+|   |   |   |   |   |   |--- value: [1591.46]
+|   |   |   |   |--- trip_duration_days >  10.50
+|   |   |   |   |   |--- trip_duration_days <= 12.50
+|   |   |   |   |   |   |--- value: [1689.30]
+|   |   |   |   |   |--- trip_duration_days >  12.50
+|   |   |   |   |   |   |--- value: [1837.46]
+|   |   |--- miles_traveled >  644.50
+|   |   |   |--- miles_traveled <= 934.50
+|   |   |   |   |--- trip_duration_days <= 9.50
+|   |   |   |   |   |--- miles_traveled <= 808.50
+|   |   |   |   |   |   |--- value: [1658.84]
+|   |   |   |   |   |--- miles_traveled >  808.50
+|   |   |   |   |   |   |--- value: [1799.52]
+|   |   |   |   |--- trip_duration_days >  9.50
+|   |   |   |   |   |--- total_receipts_amount <= 1189.69
+|   |   |   |   |   |   |--- value: [1723.09]
+|   |   |   |   |   |--- total_receipts_amount >  1189.69
+|   |   |   |   |   |   |--- value: [1858.77]
+|   |   |   |--- miles_traveled >  934.50
+|   |   |   |   |--- total_receipts_amount <= 1830.02
+|   |   |   |   |   |--- trip_duration_days <= 10.50
+|   |   |   |   |   |   |--- value: [1970.60]
+|   |   |   |   |   |--- trip_duration_days >  10.50
+|   |   |   |   |   |   |--- value: [2058.97]
+|   |   |   |   |--- total_receipts_amount >  1830.02
+|   |   |   |   |   |--- miles_traveled <= 1101.50
+|   |   |   |   |   |   |--- value: [1831.28]
+|   |   |   |   |   |--- miles_traveled >  1101.50
+|   |   |   |   |   |   |--- value: [1915.39]
